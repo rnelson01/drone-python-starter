@@ -13,7 +13,7 @@ steps:
       from_secret: u_docker
     password: 
       from_secret: p_docker
-    repo: luisredda/drone-python-starter
+    repo: ryannelson01/drone-python-starter
     auto_tag: true
 - name: harness-deploy
   image: luisredda/drone-simple-plugin
