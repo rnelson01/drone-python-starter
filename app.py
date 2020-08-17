@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/', methods = ['GET'])
 def home():
 
-    return "This is my first Drone.io Build!"
+    return "Drone.io Build!"
 
 if __name__ == '__main__':
     #app.run(debug=False)
