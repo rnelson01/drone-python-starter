@@ -14,7 +14,7 @@ steps:
     password: 
       from_secret: p_docker
     repo: ryannelson01/drone-python-starter
-    auto_tag: false
+    auto_tag: true
 - name: harness-deploy
   image: luisredda/drone-simple-plugin
   settings:  
