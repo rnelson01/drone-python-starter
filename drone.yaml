@@ -28,4 +28,7 @@ steps:
       from_secret: harness_secret
     body: |
       any other payload here
+      
+image_pull_secrets:
+- dockerconfig
 
