@@ -9,12 +9,10 @@ steps:
 - name: publish
   image: plugins/docker
   settings:
-     auth:
-       from_secret: dockerconfig
-#    username:
-#      from_secret: u_docker
-#    password: 
-#      from_secret: p_docker
+    username:
+      from_secret: u_docker
+    password: 
+      from_secret: p_docker
     repo: ryannelson01/drone-python-starter
     auto_tag: true
 - name: harness-deploy
