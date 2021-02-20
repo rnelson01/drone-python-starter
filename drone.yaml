@@ -9,7 +9,7 @@ steps:
 - name: publish
   image: plugins/docker
   settings:
-     auths:
+     auth:
        from_secret: dockerconfig
 #    username:
 #      from_secret: u_docker
