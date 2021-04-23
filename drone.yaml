@@ -6,7 +6,6 @@ steps:
   image: python
   commands:
   - pip install -r requirements.txt
-  - pip install -r requir.txt
 - name: publish
   image: plugins/docker
   settings:
