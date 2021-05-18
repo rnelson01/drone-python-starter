@@ -1,3 +1,3 @@
 # drone-python-starter
-Small project to get started with Drone 2.0!
-1
+Drone 2.0 Hello-World python build.
+
